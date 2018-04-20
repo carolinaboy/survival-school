@@ -1,0 +1,234 @@
+/*** fonts ***/
+@font-face {
+  font-family: 'BlackCaps';
+  src: url('../fonts/BlackCaps-Regular.ttf');
+}
+
+/*** sectioning elements ***/
+
+body {
+
+}
+
+header {
+  background-color: #000000;
+  background-image: url("../camo/camo-background.jpg");
+}
+
+main {
+  color: #fff;
+  background-color: #003d0a;
+  text-align: center;
+}
+
+footer {
+  background-color: #442200;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  color: #000000;
+  margin: 0;
+  font-size: 50px;
+  font-family: "BlackCaps";
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #000000;
+  font-size: 15px;
+    margin: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+h5 {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+h6 {
+  font-size: 10px;
+  color:#ffffff;
+  margin-bottom: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.small{
+  font-size: 10px;
+  margin: 0px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+  width: 100%;
+  color: #000000;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  /*grid: none;*/
+  background-image: url("../camo/camo-background.jpg");
+}
+
+tr.away {
+
+}
+
+tr.home {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+}
+
+tr {
+
+}
+
+th {
+  color:  #fff;
+  font-size: 25px;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+
+/*** image styles ***/
+
+img  {
+  margin: 5px;
+}
+
+
+
+
+/*** link styles ***/
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  color: #000000;
+}
+
+/*links footer*/
+
+footer a:link{
+  color: #ffffff;
+}
+
+footer a:visited{
+  color: #ffffff;
+}
+
+/*navbar styling */
+
+.navbar {
+      background-color: #FF6600;
+      font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+.navbar-menu.menu-shown {
+      background-color: #000000;
+    }
+
+    .menu-toggle {
+      color: #ffffff;
+    }
+
+    .menu-dismiss {
+      color: #ffffff;
+    }
+
+    .menu-shown a:link,
+    .menu-shown a:visited {
+      color: #FF6600;
+      font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .menu-shown a:active,
+    .menu-shown a:hover {
+
+    }
+
+@media (max-width: 700px){
+
+  table {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #aaaaaa;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+}
