@@ -66,8 +66,9 @@ h4 {
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 30px;
   color: #ffffff;
+  padding: 5px;
 }
 
 h6 {
@@ -77,7 +78,8 @@ h6 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
+
 }
 
 p.small{
@@ -94,7 +96,7 @@ ol {
 }
 
 ul {
-
+  font-size: 20px;
 }
 
 li {
